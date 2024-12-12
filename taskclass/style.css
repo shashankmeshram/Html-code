@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    background:url("pexel.jpg") no-repeat center center/cover;
+    position: relative;
+    color: aliceblue;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav1 h1{
+    color: white;
+    font-size: 45px;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    gap: 10%; 
+}
+.container{
+    font-size: 25px;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.container span{
+    color: aqua;
+    
+}
+.container h1{
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a i{
+    color: aqua;
+    font-size: 30px;
+}
+
+

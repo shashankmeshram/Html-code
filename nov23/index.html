@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.js" method="post">
+        <div>
+            <label for="msg">message</label> <br>
+            <textarea name="msg" id="msg" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="vehicle">car</label>
+            <input type="text" id="vehicle" list="cars"/>
+            <datalist id="cars">
+                <option value="bmw"></option>
+                <option value="audi"></option>
+                <option value="jaguar"></option>
+                <option value="tesla"></option>
+                <option value="austin martin"></option>
+            </datalist>
+            <input type="submit" value="send data">
+            <input type="reset" value="reset now">
+        </div>
+    </form>
+</body>
+</html>
